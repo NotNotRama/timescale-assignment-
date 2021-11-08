@@ -1,7 +1,5 @@
-import logo from './logo.svg';
-
-const App = () => (
-	<img src={logo} alt="Timescale" />
-)
+function App() {
+  return <div>asd</div>;
+}
 
 export default App;
