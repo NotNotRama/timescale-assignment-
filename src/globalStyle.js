@@ -15,7 +15,6 @@ html {
     font-size: 62.5%; 
     position: relative;
     font-family: 'Lato', sans-serif;
-    background-color:  #006666;
     
 }
 `;
