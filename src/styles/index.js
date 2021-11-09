@@ -1,7 +1,7 @@
 import { Container } from './Container';
 import { CardsContainer } from './CardsContainer';
 import { SearchContainer } from './SearchContainer';
-import { ModalContainer } from './ModalContainer';
+import { ModalContainer } from './Modal/ModalContainer';
 import { MovieContainer } from './MovieContainer';
 import { Input } from './Input';
 import { Card } from './Card';

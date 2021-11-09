@@ -14,18 +14,5 @@ export const ModalContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
-  div {
-    background-color: white;
-    padding: 100px;
-    display: flex;
-    width: 70%;
-    height: 70%;
-    flex-direction: column;
-
-    img {
-      height: 10rem;
-      width: 10rem;
-    }
-  }
+  flex-direction: column;
 `;
