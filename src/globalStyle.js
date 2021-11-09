@@ -14,7 +14,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; 
     position: relative;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
     
 }
 `;

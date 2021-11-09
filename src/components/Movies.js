@@ -1,6 +1,17 @@
-import { CardsContainer, MovieContainer, Card, Score } from '../styles';
+import { CardsContainer, MovieContainer, Card, Score, Error } from '../styles';
 
-export function Movies({ movies, setMovie, setModal }) {
+export function Movies({
+  movies,
+  setMovie,
+  setModal,
+  getMoviesError,
+  searchMoviesError,
+}) {
+  if (getMoviesError)
+    return <Error>There was an error while getting the movies</Error>;
+  if (searchMoviesError)
+    return <Error>There was an error while searching for movies</Error>;
+
   return (
     <MovieContainer>
       <h1>Most Recent Movies</h1>

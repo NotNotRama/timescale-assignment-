@@ -9,16 +9,17 @@ function App() {
   const [modal, setModal] = useState(false);
   const [movie, setMovie] = useState({});
 
-  if (getMoviesError)
-    return <div>There was an error while getting the movies</div>;
-  if (searchMoviesError)
-    return <div>There was an error while searching for movies</div>;
-
   return (
     <Container>
       {modal && <Modal movie={movie} setModal={setModal} />}
       <Search input={input} setInput={setInput} />
-      <Movies movies={movies} setMovie={setMovie} setModal={setModal} />
+      <Movies
+        movies={movies}
+        setMovie={setMovie}
+        setModal={setModal}
+        getMoviesError={getMoviesError}
+        searchMoviesError={searchMoviesError}
+      />
     </Container>
   );
 }

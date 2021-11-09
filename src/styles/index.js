@@ -6,6 +6,7 @@ import { MovieContainer } from './MovieContainer';
 import { Input } from './Input';
 import { Card } from './Card';
 import { Score } from './Score';
+import { Error } from './Error';
 
 export {
   Container,
@@ -16,4 +17,5 @@ export {
   Input,
   Card,
   Score,
+  Error,
 };

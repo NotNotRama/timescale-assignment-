@@ -7,7 +7,6 @@ import {
 import { ReactComponent as CloseIcon } from '../images/close-icon.svg';
 
 export function Modal({ setModal, movie }) {
-  console.log('movie', movie);
   return (
     <ModalContainer>
       <ModalContent>
